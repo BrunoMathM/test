@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbarContainer {
+  display: flex;
+  padding: 10px;
+}
+
+.navLogo {
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+
+  @media screen and (max-width: 960px) {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    padding-top: 10%;
+    top: 0;
+    left: 0;
+  }
+
+  ul,
+  li {
+    padding: 0 10px 0 10px;
+
+    @media screen and (max-width: 960px) {
+      width: 100%;
+      &:hover {
+        border: none;
+      }
+    }
+  }
+}
+
+.navItem {
+}
