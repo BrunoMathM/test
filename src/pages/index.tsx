@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Featured from "@/components/Featured";
 import About from "@/components/About";
 import Category from "@/components/Category";
+import Carousel from "@/components/Carousel";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Featured />
       <About />
       <Category />
+      <Carousel />
     </>
   );
 }

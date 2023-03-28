@@ -5,7 +5,7 @@ interface ButtonProps {
   onclick?: void;
 }
 
-export function Button({ title, onclick }: ButtonProps) {
+export function Button({ title, onclick, ...props }: ButtonProps) {
   return (
     <>
       <button className={style.button} onClick={() => onclick}>
