@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+}
+
+.image {
+}
+
+.about {
+  display: grid;
+  height: 27vh;
+
+  span {
+    width: 56vh;
+  }
+}
+
+.buttons {
+  display: flex;
+}

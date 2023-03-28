@@ -1,8 +1,8 @@
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar";
-import { Button } from "@/components/Button";
 import Featured from "@/components/Featured";
+import About from "@/components/About";
+import Category from "@/components/Category";
 
 export default function Home() {
   return (
@@ -15,6 +15,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <Featured />
+      <About />
+      <Category />
     </>
   );
 }

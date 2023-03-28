@@ -7,6 +7,10 @@
   color: #333333;
 }
 
+body > #root > div {
+  height: 100vh;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     font-family: "Inter";
@@ -49,4 +53,22 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.title {
+  font-family: "Miniver";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #195a00;
+}
+
+h2 {
+  font-family: "Helvetica";
+  font-size: 48px;
+  line-height: 56px;
+  font-feature-settings: "kern" off;
+  color: #333333;
+  width: 56vh;
 }

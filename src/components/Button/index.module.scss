@@ -8,6 +8,7 @@
   height: 58px;
   left: 301px;
   background: #195a00;
+  border: #195a00;
   border-radius: 6px;
 
   font-family: "Inter";
@@ -26,4 +27,13 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+
+  margin: 10px;
+
+  .outlined {
+    color: #195a00;
+    border: solid 1px #195a00;
+    background: white;
+    border-radius: 6px;
+  }
 }

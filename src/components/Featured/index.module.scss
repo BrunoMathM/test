@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+}
+.content {
+  display: grid;
+  height: 40vh;
+  margin-top: 20vh;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+
+  width: 50%;
+}
+
+.background {
+  width: 50%;
+}
+
+.image {
+}
+
+.text {
+  width: 37vh;
+  text-align: initial;
+}
+
+.buttons {
+  display: flex;
+}
